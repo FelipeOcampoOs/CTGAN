@@ -67,9 +67,5 @@ for params in grid:
         best_model = model
         best_synthetic_data = synthetic_data  # Guardar los mejores datos sintéticos
 
-# Guardar la data artificial generada en un archivo Excel
-if best_synthetic_data is not None:
-    best_synthetic_data.to_excel("synthetic_data.xlsx", index=False)
-
 print("Mejor combinación de hiperparámetros:", best_model.get_parameters())
 print("Mejor puntaje de calidad:", best_score)
