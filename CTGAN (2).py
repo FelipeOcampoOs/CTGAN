@@ -9,7 +9,6 @@ data= ('database_non-shows (2) (4).xlsx')
 metadata = SingleTableMetadata()
 metadata.detect_from_dataframe(data)
 
-# Definir los parámetros que quieres ajustar
 param_grid = {
     'epochs': [300,500],
     'generator_dim': [(128, 128),(256, 256), (512, 512), (512, 256, 128)],
