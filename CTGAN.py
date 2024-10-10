@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
-from sdv.single_table import CTGANSynthesizer
+import pandas as pd
+"""from sdv.single_table import CTGANSynthesizer
 from sdv.metadata import SingleTableMetadata
 from sdv.evaluation.single_table import evaluate_quality
 from sklearn.model_selection import ParameterGrid
-import pandas as pd
+
 data= ('database_non-shows (2) (4).xlsx')
 # Definir la metadata del DataFrame
 metadata = SingleTableMetadata()
@@ -67,4 +68,4 @@ for params in grid:
         best_synthetic_data = synthetic_data  # Guardar los mejores datos sintéticos
 
 print("Mejor combinación de hiperparámetros:", best_model.get_parameters())
-print("Mejor puntaje de calidad:", best_score)
+print("Mejor puntaje de calidad:", best_score)"""
