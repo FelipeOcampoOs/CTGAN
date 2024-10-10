@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 from sdv.single_table import CTGANSynthesizer
 from sdv.metadata import SingleTableMetadata
 from sdv.evaluation.single_table import evaluate_quality
