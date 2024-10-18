@@ -5,7 +5,7 @@ from sdv.metadata import SingleTableMetadata
 from sdv.evaluation.single_table import evaluate_quality
 from sklearn.model_selection import ParameterGrid
 import pandas as pd
-data= ('database_non-shows (2) (4).xlsx')
+data= pd.read_excel('database_non-shows (2) (4).xlsx')
 # Definir la metadata del DataFrame
 metadata = SingleTableMetadata()
 metadata.detect_from_dataframe(data)
